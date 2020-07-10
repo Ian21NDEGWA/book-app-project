@@ -1,0 +1,90 @@
+
+
+figcaption{
+    color: chartreuse;
+    font-size: 10px;
+    font-style: oblique;
+    padding-right: 10px;
+    padding-top: 0px;
+    font-family: sans-serif;
+}
+h1{
+    color: blueviolet;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+body {
+    /*background-image:url("/images/Canva%20-%20Woman%20Standing%20Beside%20Book%20Store.jpg");*/
+    background-image:linear-gradient(to bottom,slategray, black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: chartreuse;
+    font-size: 22px;
+    text-align: left;
+ 
+}
+input[type=text]{
+    width: 60%;
+    padding: 12px 18px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: darkslategray;
+    color: chartreuse;
+}
+input[type=text]:focus{
+    background-color: slategray;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 12px 12px;
+    color: blueviolet;
+    background-color: goldenrod;
+    font-size: 22px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+p{
+    background-image: linear-gradient(-60deg, black, gray, green);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+form{
+    width: 90%;
+    height: 100px;
+    background-color: slateblue;
+    color: chartreuse;
+    font-size: 22px;
+    
+}
+.delete{
+    float: right;
+    background-color: goldenrod;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.delete:focus{
+    cursor: pointer;
+    background-color: slategray
+}
+li{
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.heading__search{
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: chartreuse;
+    background-color: transparent;
+    width: 50%;
+    padding: 2px 3px;
+}
